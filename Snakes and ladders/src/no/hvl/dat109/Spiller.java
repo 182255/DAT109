@@ -26,6 +26,9 @@ public class Spiller {
 		this.brikke = brikke;
 	}
 	
+	public String toString() {
+		return "Spiller 1 " + navn;
+	}
 	
 
 }

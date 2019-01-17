@@ -2,6 +2,7 @@ package no.hvl.dat109;
 
 public class Rute {
 	private int nr;
+	private boolean on;
 	
 	public Rute() {
 		
@@ -15,6 +16,13 @@ public class Rute {
 		this.nr = nr;
 	}
 	
+	public boolean getOn() {
+		return on;
+	}
+	
+	public void setOn(boolean status) {
+		this.on = status;
+	}
 	
 
 }

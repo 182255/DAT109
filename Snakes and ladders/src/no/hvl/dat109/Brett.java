@@ -23,5 +23,7 @@ public class Brett {
 	public int sizeBrett() {
 		return board.size();
 	}
+	
+	
 
 }

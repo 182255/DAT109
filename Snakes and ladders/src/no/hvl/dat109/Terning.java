@@ -18,5 +18,7 @@ public class Terning {
 	public int getVerdi() {
 		return roll;
 	}
+	
+	
 
 }
