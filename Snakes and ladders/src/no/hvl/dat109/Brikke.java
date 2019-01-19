@@ -3,15 +3,15 @@ package no.hvl.dat109;
 public class Brikke {
 
 	private String fasong;
-	private int plassering;
+	private int rute;
 	
 	public Brikke() {
-		plassering = 0;
+		rute = 0;
 	}
 
 	
 	public void move(int antallRuter) {
-		plassering += antallRuter;
+		rute += antallRuter;
 	}
 	
 	//getters and setters
@@ -23,16 +23,16 @@ public class Brikke {
 		this.fasong = fasong;
 	}
 
-	public int getPlassering() {
-		return plassering;
+	public int getRute() {
+		return rute;
 	}
 
-	public void setPlassering(int plassering) {
-		this.plassering = plassering;
+	public void setRute(int plassering) {
+		this.rute = plassering;
 	}
 	
 	public String place() {
-		return fasong + " er i Rute nr " + plassering;
+		return fasong + " er i Rute nr " + rute;
 	}
 	
 }

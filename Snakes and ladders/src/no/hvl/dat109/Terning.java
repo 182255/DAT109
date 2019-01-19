@@ -2,6 +2,11 @@ package no.hvl.dat109;
 
 import java.util.Random;
 
+
+/**
+ * Definerer en terning med 6 sider
+ * @author
+ */
 public class Terning {
 	private Random terningverdi = new Random();;
 	private int dots, roll;

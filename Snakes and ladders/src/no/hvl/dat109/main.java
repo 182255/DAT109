@@ -4,7 +4,7 @@ public class main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Spill snakes = new Spill();
+		StigeSpill snakes = new StigeSpill();
 		snakes.startGame();
 	}
 

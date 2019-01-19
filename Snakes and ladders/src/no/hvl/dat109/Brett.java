@@ -23,6 +23,12 @@ public class Brett {
 	public int sizeBrett() {
 		return board.size();
 	}
+
+
+	public Rute finnNyRute(int verdi, int nummer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 
